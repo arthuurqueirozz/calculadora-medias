@@ -33,6 +33,7 @@ header h1 {
 
 form {
     display: flex;
+    flex-wrap: wrap;
     max-width: 640px;
     width: 100%;
     justify-content: space-between;
@@ -98,4 +99,20 @@ table td img{
     background-color: red;
 }
 
+.alert{
+    background-color: red;
+    color: #fff;
+    margin-top: 8px;
+    border-radius: 4px;
+    padding: 8px;
+    display: none;
+}
+
+/* .valid-input{
+    border-top: none;
+} */
+
+.invalid-input{
+    border: 1px solid red;
+}
 

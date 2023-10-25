@@ -17,11 +17,11 @@
         </header>
     
         <form id="form">
-            <input type="text" id="name-activity" required placeholder="Nome da atividade">
-            <input type="number" id="grade" required placeholder="Nota da atividade" min="0" max="10">
+            <input type="text"  id="name-activity" required placeholder="Nome da atividade">         
+            <input type="number" id="grade" required placeholder="Nota" min="0" max="10">
             <button type="submit">Adicionar +</button>
+            <p id="invalid-alert" class="alert">Atividade já inserida!</p>
         </form>
-    
         <table cellspacing="0">
             <thead>
                 <tr>
@@ -39,8 +39,8 @@
             <tfoot>
                 <tr>
                     <td>Média Final</td>
-                    <td>7</td>
-                    <td><span class="result">Aprovado</span></td>
+                    <td id="final-average">--</td>
+                    <td id="result-final"><span class="result">--</span></td>
                 </tr>
             </tfoot>
         </table>

@@ -50,7 +50,7 @@ function addLineGrade() {
 function updateAverageGrade (){
     let averageFinal = getAverageGrade()
 
-    document.getElementById('final-average').innerHTML = averageFinal
+    document.getElementById('final-average').innerHTML = averageFinal.toFixed(2)
     
     const situation = document.getElementById('result-final')
     situation.innerHTML = averageFinal >= 7 ? approvedSpan : disapprovedSpan

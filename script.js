@@ -66,7 +66,3 @@ function getAverageGrade(){
     return sumGrades / grades.length
 
 }
-
-function checkValidInput(activity){
-   
-}
